@@ -1,0 +1,47 @@
+---
+title: "Building an AI Agent with Dagger"
+format:
+  revealjs:
+    navigation-mode: vertical
+    title-slide-attributes:
+      data-background-color: "#141226"
+      data-background-transition: slide
+---
+
+# What is an AI Agent?{background-image="assets/background.png"}
+- AI can do things, it can interact with its environment, it has that capability you just need to give it the tools to do that and that's what agent is.
+
+::: {.notes}
+- An agentis an LLM connected to some software so that the LLM can do things itself, it decides to do things and then it does them but of course it does that in an environment controlled by you the developer.
+- Generating code, debugging tests, automating workflows.
+- Saves time for DEV (code fixes) and QA (test creation/debugging).
+:::
+
+# Why Build AI Agent with Dagger?{background-image="assets/background.png"}
+- Dagger: Open-source runtime for composable, containerized workflows, built by Docker creators.
+- How Dagger helps build AI agents:
+    - Native LLM integration for seamless prompt execution.
+    - Reproducible containerized environments for consistent results.
+    - Built-in observability (logs, tracing) for debugging agent behavior.
+    - Language-agnostic (Python, Go, etc.) for flexible coding.
+
+- Benefit: Simplifies agent creation and integration into CI pipelines.
+
+# Build an AI agent for Linting and Tessting{background-image="assets/background.png"}
+
+## CI Flow
+
+![](./assets/ci-flow.png)
+
+## CI Flow with an Agent
+
+![](./assets/ci-flow-with-agent.png)
+
+# Demo content
+
+# Thank you
+
+_Any questions?_
+
+<br>
+<br>
